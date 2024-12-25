@@ -1,0 +1,134 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: hsl(0, 3%, 14%);
+           filter: drop-shadow(5px 5px 8px white);
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 3px solid #121111;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            background-color: #f3efef;
+            filter: drop-shadow(5px 5px 8px white);
+        }
+     
+        .form-container h1{
+            background-color: #0b0b0b;
+            color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            filter: drop-shadow(5px 5px 8px rgb(17, 16, 16));
+        }
+        
+
+        .invoice-container{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 3px solid #211e1e;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            background-color: rgb(237, 237, 237);
+
+        }
+          
+        .invoice-container h1{
+            background-color: #0b0b0b;
+            color: #f4f4f4;
+            padding: 3%;
+
+        }
+
+        .invoice-container .black{
+            background-color: #0b0b0b;
+            color: #f4f4f4;
+            padding: 1%;
+
+        }
+
+
+
+        .form-container {
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .button-group {
+            display: flex;
+            justify-content: space-between;
+        }
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            filter: drop-shadow(5px 5px 8px rgb(21, 21, 21));
+        }
+        button.primary {
+            background-color: #0b0b0b;
+            color: white;
+        }
+        button.secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+        .invoice-container {
+            display: none;
+        }
+        .invoice-container h2 {
+            text-align: center;
+        }
+        .store-details {
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 3px;
+            filter: drop-shadow(2px 2px 5px rgb(17, 16, 16));
+
+        }
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .invoice-table th, .invoice-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .invoice-table th {
+            background-color: #f4f4f4;
+        }
+        .total {
+            text-align: right;
+            font-weight: bold;
+        }
+        .thank-you {
+            text-align: center;
+            margin-top: 20px;
+            font-size: large;
+            font-weight: bold;
+            background-color: #0b0b0b;
+            color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            filter: drop-shadow(3px 3px 5px rgb(17, 16, 16));
+        }
+        .thank-you p{
+            text-align: start;
+            font-size: small;
+        }
